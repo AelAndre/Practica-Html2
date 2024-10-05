@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Ingalls Practica HTML 2</title>
+    <style>
+        body {
+            background-color: cyan;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .tree {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        .generacion {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .miembro {
+            margin: 0 20px;
+            padding: 20px;
+            background-color: rgb(44, 144, 220);
+            border: 3px solid rgb(28, 56, 195);
+            border-radius: 10px;
+            width: 150px;
+            text-align: center;
+        }
+
+        .miembro img {
+            width: 120px; 
+            height: 180px; 
+            margin-bottom: 10px;
+            object-fit: cover; 
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: rgb(8, 29, 121);
+        }
+    </style>
+</head>
+<body>
+
+    <h2>La Familia Ingalls</h2>
+
+    <div class="tree">
+        <!-- Padres -->
+        <div class="generacion">
+            <div class="miembro">
+                <img src="https://i.pinimg.com/474x/fa/96/85/fa9685ad9341ebe354cab62bdb2dcdc8.jpg" alt="Charles Ingalls">
+                <p>Charles Ingalls</p>
+            </div>
+            <div class="miembro">
+                <img src="https://i.pinimg.com/564x/7e/f4/2f/7ef42f0e6e791c2e371705ecd535895b.jpg" alt="Caroline Ingalls">
+                <p>Caroline Ingalls</p>
+            </div>
+        </div>
+
+        <!-- Hijos -->
+        <div class="generacion">
+            <div class="miembro">
+                <img src="https://i.pinimg.com/564x/47/d1/2f/47d12f8b760fde2777087a4f18f80a8a.jpg" alt="Mary Ingalls">
+                <p>Mary Ingalls</p>
+            </div>
+            <div class="miembro">
+                <img src="https://i.pinimg.com/474x/ca/18/81/ca18816f4dc5125ce9dbcba3c93fccf9.jpg" alt="Laura Ingalls">
+                <p>Laura Ingalls</p>
+            </div>
+            <div class="miembro">
+                <img src="https://i.pinimg.com/736x/f6/10/c9/f610c9505f809ab491ca8e5e8b088332.jpg" alt="Carrie Ingalls">
+                <p>Carrie Ingalls</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
